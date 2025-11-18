@@ -1,0 +1,25 @@
+.title {
+    font-size: clamp(24px, 5vw, 80px);
+    display: grid;
+    place-items: center;
+    height: clamp(120px, 20vw, 200px);
+}
+
+.hero{
+  font-size: clamp(24px, 5vw, 30px);
+  display: grid;
+  place-items: center;
+  height: clamp(120px, 20vw, 200px);
+}
+
+.image-row {
+  display: flex;
+  justify-content: center; 
+  gap: 10px;               
+}
+
+.image-row img {
+  width: clamp(200px, 30vw, 300px); 
+  height: auto;                      
+  object-fit: cover;                 
+}
