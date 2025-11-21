@@ -1,124 +1,122 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anmeldung - Kindergarten Sonnenhügel</title>
-    <link rel="stylesheet" href="../../css/Anmeldung/style.css">
-    <link rel="stylesheet" href="../../css/index/navbar.css">
-    <link rel="stylesheet" href="../../css/index/style.css">
-    <link rel="stylesheet" href="../../css/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anmeldung - Kindergarten Sonnenhügel</title>
+  <link rel="icon" type="image/webp" href="../../images/logo.webp">
+  <link rel="stylesheet" href="../../css/Anmeldung/style.css">
+  <link rel="stylesheet" href="../../css/index/navbar.css">
+  <link rel="stylesheet" href="../../css/index/style.css">
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <header>
-        <div class="title">Kindergarten Sonnenhügel</div>
-    </header>
+  <header class="title">
+    <img src="../../images/logo.webp" alt="logo" width="150px" height="150px">
+    <h1>Kindergarten Sonnenhügel</h1>
+  </header>
+  
+  <nav class="navbar">
+      <button class="nav-toggle" id="navToggle">
+        ☰
+      </button>
     
-    <nav class="navbar">
-        <button class="nav-toggle" id="navToggle">
-          ☰
-        </button>
-      
-        <ul class="nav-list" id="navList">
-          <li><a href="../../index.html">Startseite</a></li>
-          <li><a href="./about-us.html">Über uns</a></li>
-          <li><a href="./gruppen.html">Gruppen</a></li>
-          <li><a href="./Konzept.html">Konzept</a></li>
-          <li><a href="./Anmeldung.html">Anmeldung</a></li>
-          <li><a href="./Kontakt.html">Kontakt</a></li>
-        </ul>
-    </nav>
-    
+      <ul class="nav-list" id="navList">
+        <li><a href="../../index.html">Startseite</a></li>
+        <li><a href="./about-us.html">Über uns</a></li>
+        <li><a href="./gruppen.html">Gruppen</a></li>
+        <li><a href="./Konzept.html">Konzept</a></li>
+        <li><a href="./Anmeldung.html">Anmeldung</a></li>
+        <li><a href="./Kontakt.html">Kontakt</a></li>
+      </ul>
+  </nav>
+  
 
-<main>
-
+  <main>
     <section>
-        <h2>Wichtige Informationen zur Anmeldung</h2>
-        <p>
-            Wir freuen uns, dass Sie Ihr Kind im <strong>Kindergarten Sonnenhügel</strong> anmelden möchten!
-            Um einen Platz zu sichern, füllen Sie bitte das folgende Formular vollständig aus.
-        </p>
-        <ul>
-            <li><strong>Anmeldebeginn:</strong> ganzjährig möglich</li>
-            <li><strong>Betreuungsstart:</strong> jeweils zum Monatsbeginn</li>
-            <li><strong>Benötigte Unterlagen:</strong> Geburtsurkunde, Impfpass (Kopie), Meldebescheinigung</li>
-            <li><strong>Rückmeldung:</strong> innerhalb von 7-14 Tagen</li>
-        </ul>
+      <h2>Wichtige Informationen zur Anmeldung</h2>
+      <p>
+        Wir freuen uns, dass Sie Ihr Kind im <strong>Kindergarten Sonnenhügel</strong> anmelden möchten!
+        Um einen Platz zu sichern, füllen Sie bitte das folgende Formular vollständig aus.
+      </p>
+      <ul>
+        <li><strong>Anmeldebeginn:</strong> ganzjährig möglich</li>
+        <li><strong>Betreuungsstart:</strong> jeweils zum Monatsbeginn</li>
+        <li><strong>Benötigte Unterlagen:</strong> Geburtsurkunde, Impfpass (Kopie), Meldebescheinigung</li>
+        <li><strong>Rückmeldung:</strong> innerhalb von 7-14 Tagen</li>
+      </ul>
     </section>
 
     <section>
-        <h2>Anmeldeformular</h2>
-    
-        <form action="#" method="POST">
-    
-            <div class="form-grid">
-    
-                <div class="form-section">
-                    <h3>Angaben zum Kind</h3>
-    
-                    <label for="childname">Name des Kindes:</label>
-                    <input type="text" id="childname" name="childname" required>
-    
-                    <label for="birthday">Geburtsdatum:</label>
-                    <input type="date" id="birthday" name="birthday" required>
-    
-                    <label for="address">Adresse:</label>
-                    <input type="text" id="address" name="address" required>
-                </div>
-    
-    
-                <div class="form-section">
-                    <h3>Angaben zu den Eltern</h3>
-    
-                    <label for="parentname">Name der Eltern / Erziehungsberechtigten:</label>
-                    <input type="text" id="parentname" name="parentname" required>
-    
-                    <label for="email">E-Mail-Adresse:</label>
-                    <input type="email" id="email" name="email" required>
-    
-                    <label for="phone">Telefonnummer:</label>
-                    <input type="tel" id="phone" name="phone" required>
-                </div>
-    
-    
-                <div class="form-section">
-                    <h3>Betreuungsbedarf</h3>
-    
-                    <label for="startdate">Gewünschter Betreuungsstart:</label>
-                    <input type="month" id="startdate" name="startdate" required>
-    
-                    <label for="hours">Betreuungsmodell:</label>
-                    <select id="hours" name="hours" required>
-                        <option value="">Bitte wählen…</option>
-                        <option value="4h">4 Stunden pro Tag</option>
-                        <option value="6h">6 Stunden pro Tag</option>
-                        <option value="ganztag">Ganztagsbetreuung</option>
-                    </select>
-    
-                    <label for="message">Weitere Anmerkungen:</label>
-                    <textarea id="message" name="message" rows="4" placeholder="z. B. Allergien, besondere Bedürfnisse"></textarea>
-                </div>
-    
-            </div>
-            <div class="submit-main">
-                <div class="submit">
-                    <button type="submit" class="submit">Anmeldung absenden</button>
-                </div>
-            </div>
-        </form>
+      <h2>Anmeldeformular</h2>
+
+      <form action="#" method="POST">
+        
+        <div class="form-grid">
+
+          <div class="form-section">
+            <h3>Angaben zum Kind</h3>
+
+            <label for="childname">Name des Kindes:</label>
+            <input type="text" id="childname" name="childname" required>
+
+            <label for="birthday">Geburtsdatum:</label>
+            <input type="date" id="birthday" name="birthday" required>
+
+            <label for="address">Adresse:</label>
+            <input type="text" id="address" name="address" required>
+          </div>
+
+          <div class="form-section">
+            <h3>Angaben zu den Eltern</h3>
+
+            <label for="parentname">Name der Eltern / Erziehungsberechtigten:</label>
+            <input type="text" id="parentname" name="parentname" required>
+
+            <label for="email">E-Mail-Adresse:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Telefonnummer:</label>
+            <input type="tel" id="phone" name="phone" required>
+          </div>
+
+          <div class="form-section">
+            <h3>Betreuungsbedarf</h3>
+
+            <label for="startdate">Gewünschter Betreuungsstart:</label>
+            <input type="month" id="startdate" name="startdate" required>
+
+            <label for="hours">Betreuungsmodell:</label>
+            <select id="hours" name="hours" required>
+              <option value="">Bitte wählen…</option>
+              <option value="4h">4 Stunden pro Tag</option>
+              <option value="6h">6 Stunden pro Tag</option>
+              <option value="ganztag">Ganztagsbetreuung</option>
+            </select>
+
+            <label for="message">Weitere Anmerkungen:</label>
+            <textarea id="message" name="message" rows="4" placeholder="z. B. Allergien, besondere Bedürfnisse"></textarea>
+          </div>
+
+        </div>
+        <div class="submit-main">
+          <div class="submit">
+            <button type="submit" class="submit">Anmeldung absenden</button>
+          </div>
+        </div>
+      </form>
     </section>
     
-</main>
+  </main>
 
-<footer>
+  <footer>
     <p>&copy; 2025 Kindergarten Sonnenhügel - Alle Rechte vorbehalten.</p>
-</footer>
+  </footer>
 
-<script src="../../js/main.js"></script>
-<script src="../../js/checkScreen.js"></script>
+  <script src="../../js/main.js"></script>
+  <script src="../../js/checkScreen.js"></script>
 
 </body>
 </html>

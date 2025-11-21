@@ -1,8 +1,11 @@
 .title {
-    font-size: clamp(24px, 5vw, 80px);
-    display: grid;
-    place-items: center;
-    height: clamp(120px, 20vw, 200px);
+  font-size: clamp(24px, 5vw, 40px);
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto auto; 
+  justify-content: center;
+  gap: 20px;
+  height: clamp(120px, 20vw, 200px);
 }
 
 .hero{
