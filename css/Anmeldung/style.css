@@ -1,0 +1,38 @@
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-section input,
+.form-section select,
+.form-section textarea {
+    padding: 8px;
+    font-size: 1rem;
+}
+
+.title {
+    font-size: clamp(24px, 5vw, 80px);
+    display: grid;
+    place-items: center;
+    height: clamp(120px, 20vw, 200px);
+}
+
+.hero{
+    font-size: clamp(24px, 5vw, 30px);
+    display: grid;
+    place-items: center;
+    height: clamp(120px, 20vw, 200px);
+  }
+  
+.submit-main{
+    display: flex;
+    justify-content: right;
+}

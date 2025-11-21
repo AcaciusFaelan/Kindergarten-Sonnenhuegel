@@ -1,0 +1,14 @@
+.title {
+    font-size: clamp(24px, 5vw, 80px);
+    display: grid;
+    place-items: center;
+    height: clamp(120px, 20vw, 200px);
+}
+
+.hero{
+    font-size: clamp(24px, 5vw, 30px);
+    display: grid;
+    place-items: center;
+    height: clamp(120px, 20vw, 200px);
+  }
+  
