@@ -9,7 +9,7 @@ function checkScreenSize() {
 
   if (isTooSmall && !onErrorPage) {
     // Zu klein → weiterleiten auf error.html
-    window.location.href = "./html/error.html";
+    window.location.href = "../html/error.html";
   } else if (!isTooSmall && onErrorPage) {
     // Wieder groß genug → zurück zur Hauptseite
     window.location.href = "../index.html";
