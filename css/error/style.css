@@ -1,7 +1,6 @@
 .title {
     font-size: clamp(24px, 5vw, 40px); 
     display: grid;                     
-    place-items: center;               
-    height: clamp(120px, 20vw, 200px);
+    place-items: center;
     text-align: center;                
 }

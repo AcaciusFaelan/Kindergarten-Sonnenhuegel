@@ -5,18 +5,22 @@
   grid-template-columns: auto auto; 
   justify-content: center;
   gap: 20px;
-  height: clamp(120px, 20vw, 200px);
+}
+
+.title img {
+  width: 12vw;
+  height: 12vw;
 }
 
 .hero{
   font-size: clamp(24px, 5vw, 30px);
   display: grid;
   place-items: center;
-  height: clamp(120px, 20vw, 200px);
 }
 
 .image-row {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center; 
   gap: 10px;               
 }
@@ -25,4 +29,10 @@
   width: clamp(200px, 30vw, 300px); 
   height: auto;                      
   object-fit: cover;                 
+}
+
+@media (max-width: 500px) {
+  .title img {
+    display: none;
+  }
 }
